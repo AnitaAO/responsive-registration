@@ -55,7 +55,7 @@ body{
 
 .top{
     background-color: #5D54A3;
-    height: 20%;
+    /* height: 20%; */
     color: #FFF;
     padding: 20px;
     text-align: center;
@@ -64,7 +64,38 @@ body{
     margin-bottom: 20px;
 }
 
-.bottom{
+.middle{
     background-color: #FFF;
-    height: 80%;
+    /* height: 80%; */
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20%;
+}
+
+td{
+    padding: 10px;
+}
+
+.row1, .row2, .row3, .row4{
+    padding: 10px;
+    
+}
+
+.btn{
+    background-color: #37CC8A;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.bottom{
+    color: white;
+    padding: 20px;
 }
