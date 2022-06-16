@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FE7978;
+    background-image: url('assets/images/bg-intro-desktop.png');
+}
+
+@media screen and (min-width: 1440px) {
+    
+
+    main{
+
+   display: flex;
+   flex-direction: wrap;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   padding: 100px;
+    }
+
+
+    .left{
+    flex: 50%;
+    color: white;
+    }
+
+    .right{
+    flex: 50%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+
+    main{
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   padding: 24px;
+    }
+
+
+    .left{
+    color: white;
+    }
+
+    /* .right{
+    f
+    } */
+}
+
+.top{
+    background-color: #5D54A3;
+    height: 20%;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: grey;
+    margin-bottom: 20px;
+}
+
+.bottom{
+    background-color: #FFF;
+    height: 80%;
+}
